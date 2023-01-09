@@ -1,9 +1,12 @@
 #python #thread
 
-### Ссылки
+### Ресурсы
 
 1. docs:  https://docs.python.org/3/library/threading.html
 2. Статья на русском №1: https://webdevblog.ru/vvedenie-v-potoki-v-python/
+
+### Связи
+[[Python. watchdog]]
 
 
 ### Пример

@@ -1,6 +1,6 @@
 #yaml #anchors #alias
 
-### Ссылки
+### Ресурсы
 1. Гайд: https://medium.com/@kinghuang/docker-compose-anchors-aliases-extensions-a1e4105d70bd
 
 

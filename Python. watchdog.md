@@ -1,6 +1,6 @@
 #python #fs #watchdog
 
-### Ссылки
+### Ресурсы
 
 1. docs: https://python-watchdog.readthedocs.io/en/stable/
 2. Гайд на Хабре: https://habr.com/ru/post/140649/

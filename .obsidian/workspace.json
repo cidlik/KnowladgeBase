@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "c28057f472ba7e1a",
+    "type": "split",
+    "children": [
+      {
+        "id": "473370847c178ab7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "feb2104cc520be24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Быстрый гайд по Markdown.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2de570598a769b41",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
+              }
+            }
+          },
+          {
+            "id": "ed78747d8abe0b67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python. Callbacks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "85a84ac366af4621",
+    "type": "split",
+    "children": [
+      {
+        "id": "aea9748c2ee67acb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6821e86c2d15de24",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "86aa18da64a91378",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5941947068458c3c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3b3ddf7cb72c4bcb",
+    "type": "split",
+    "children": [
+      {
+        "id": "11c068328fd29fa0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fca2f9ab0a8441e8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Python. Callbacks.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f9cde84274fb4425",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Python. Callbacks.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "91ec472269a4fe83",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f8b63ddbb2ed8cd6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Python. Callbacks.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ed78747d8abe0b67",
+  "lastOpenFiles": [
+    "YAML. Теги.md",
+    "YAML. Якори и псевдонимы.md",
+    "Python. watchdog.md",
+    "Python. Потоки.md",
+    "Быстрый гайд по Markdown.md",
+    "python.md",
+    "Слежение за файлами в Python.md"
+  ]
+}

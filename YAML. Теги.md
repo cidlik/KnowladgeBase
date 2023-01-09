@@ -1,6 +1,6 @@
 #yaml #anchors #alias 
 
-### Ссылки
+### Ресурсы
 1. Статья: https://levelup.gitconnected.com/6-yaml-features-most-programmers-dont-know-164762343af3
 
 

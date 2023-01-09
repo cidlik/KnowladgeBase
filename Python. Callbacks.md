@@ -1,6 +1,6 @@
 #python #callback 
 
-### Ссылки
+### Ресурсы
 1. https://stackoverflow.com/questions/6920302/how-to-pass-arguments-to-a-button-command-in-tkinter
 
 ### Заметки
