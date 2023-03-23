@@ -11,7 +11,8 @@
 * кодирующий (encoding);
 * физический (physical);
 * управляющий(?) (managment).
-<img src="D:\Programs\Obsidian.md\cidlik\KnowladgeBase\img\spw_stack.png" alt="spw_stack">
+
+<img src="img\spw_stack.png" alt="spw_stack">
 
 ### Сетевой слой
 Слой должен обеспечить следующие сервисы:
@@ -66,7 +67,9 @@
 * приёмник;
 * пару драйверов передатчика;
 * пару драйверов приёмника.
-<img src="D:\Programs\Obsidian.md\cidlik\KnowladgeBase\img\spw_port_arch.png" alt="spw_port_arch">
+
+<img src="img\spw_port_arch.png" alt="spw_port_arch">
+
 Интерфейс порта должен включать:
 * интерфейс приёма пакетов;
 * интерфейс передачи пакетов;

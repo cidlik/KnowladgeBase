@@ -18,12 +18,16 @@
 
 ##### Data characters
 * Data character должны кодироваться 10 битами. Полученный symbol содержит бит четности, флаг управления данными (data-control flag) и 8 бит данных:
-  <img src="D:\Programs\Obsidian.md\cidlik\KnowladgeBase\img\spw_data_character.png" alt="spw_data_character">
+
+  <img src="img\spw_data_character.png" alt="spw_data_character">
+
   *Note* Флаг управления данными указывает, это data character (0) или control character (1).
   Порядок следования бит данных - LSB.
 
 ##### Control characters
-<img src="D:\Programs\Obsidian.md\cidlik\KnowladgeBase\img\spw_control_character.png" alt="spw_control_character">
+
+<img src="img\spw_control_character.png" alt="spw_control_character">
+
 Коротко про control characters (подробнее см. Data link layer):
 * FCT управляет потоком N-Chars в канале;
 * EOP используется канальным слоем, чтобы пометить конец пакета, показывающий, что пакет был передан без ошибок четности.
@@ -35,12 +39,14 @@
 * Null control code должен быть закодирован как ESC, за которым следует токен управления потоком (flow control toket - FCT).
 	* Null отправляется в кодирующий слой из канального слоя всегда, когда в канал не отправляются данные или control symbols, чтобы поддерживать связь в канале и обеспечивать определение разрыва.
 * Структура broadcast codes предcтавлена на рисунке
-  <img src="D:\Programs\Obsidian.md\cidlik\KnowladgeBase\img\spw_broadcast_codes.png" alt="spw_broadcast_codes">
+
+  <img src="img\spw_broadcast_codes.png" alt="spw_broadcast_codes">
+
   *Note* broadcast code = временные метки или коды распределенных прерываний.
 
 ### Стробирование данных при кодировании/декодировании
 Поток бит данных, получаемый в результате сериализации symbols, должен быть кодирован при помощи двух сигналов: сигнал данных и стробирующий сигнал. 
 * Сигнал данных должен соответствовать потоку бит (сигнал данных в высоком уровне, если бит данных 1, в низком - если бит данных 0). 
 * Стробирующий сигнал должен меняться всегда, когда сигнал данных не меняется от одного бита к другому.
-  <img src="D:\Programs\Obsidian.md\cidlik\KnowladgeBase\img\spw_data_strobe.png" alt="spw_data_strobe">
-  
+
+  <img src="img\spw_data_strobe.png" alt="spw_data_strobe">
