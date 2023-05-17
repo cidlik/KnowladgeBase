@@ -2,6 +2,7 @@
 
 ### Ресурсы
 1. Статья: https://habr.com/ru/post/50147/
+2. [Модуль http.server в Python.](https://docs-python.ru/standart-library/modul-http-server-python/)
 
 ### Заметки
 - **HTTP** - протокол взаимодействия между двумя устройствами (клиентом и сервером), построенного на базе сообщений запрос (request) и ответ (response).
