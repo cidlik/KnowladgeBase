@@ -1,0 +1,11 @@
+all: main custom-lib
+	gcc src/*.o -o test
+
+custom-lib:
+	gcc -Iinclude/ -c src/$@.c -o src/$@.o
+
+main:
+	gcc -Iinclude/ -c src/$@.c -o src/$@.o
+
+clean:
+	rm test src/*.o

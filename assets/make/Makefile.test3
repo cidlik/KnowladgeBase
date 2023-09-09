@@ -1,0 +1,17 @@
+APP_NAME = test
+SRC_DIR = src
+
+INCLUDES += include/
+CC = gcc
+
+all: main custom-lib
+	$(CC) $(SRC_DIR)/*.o -o $(APP_NAME)
+
+custom-lib:
+	$(CC) -I$(INCLUDES) -c $(SRC_DIR)/$@.c -o $(SRC_DIR)/$@.o
+
+main:
+	$(CC) -I$(INCLUDES) -c $(SRC_DIR)/$@.c -o $(SRC_DIR)/$@.o
+
+clean:
+	rm $(APP_NAME) src/*.o

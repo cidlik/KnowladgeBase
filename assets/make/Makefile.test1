@@ -1,0 +1,2 @@
+all:
+	gcc -Iinclude/ src/custom-lib.c src/main.c -o test
