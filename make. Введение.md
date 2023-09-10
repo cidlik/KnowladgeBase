@@ -1,12 +1,13 @@
 #make #introduction
 
 # Ресурсы
+
 1. Статья: https://habr.com/ru/articles/155201/
 2. Automatic variables: https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html
 3. Cheat sheet: https://devhints.io/makefile
 4. Manual: https://www.gnu.org/software/make/manual/html_node/
 
-Примеры располагаются в `assets/make`. Проект возможно собрать при помощи
+Примеры располагаются в `examples/make`. Проект возможно собрать при помощи
 команды `gcc -Iinclude/ src/custom-lib.c src/main.c -o test`.
 
 
