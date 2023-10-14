@@ -1,6 +1,6 @@
 #!/bin/bash
 
-../block.sh "Environment and user variables scope"
+block.sh "Environment and user variables scope"
 export FOO=BAR
 echo "echo FOO=\$FOO" > tmp.sh
 bash tmp.sh

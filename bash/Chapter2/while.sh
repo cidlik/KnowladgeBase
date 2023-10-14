@@ -1,6 +1,6 @@
 #!/bin/bash
 
-../block.sh "Simple while"
+block.sh "Simple while"
 i=0
 while [ $i -le 5 ]
 do

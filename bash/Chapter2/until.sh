@@ -1,6 +1,6 @@
 #!/bin/bash
 
-../block.sh "Simple until"
+block.sh "Simple until"
 i=0
 until [ $i -ge 5 ]
 do

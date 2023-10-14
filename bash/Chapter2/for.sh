@@ -1,19 +1,19 @@
 #!/bin/bash
 
-../block.sh "Simple loop"
+block.sh "Simple loop"
 for color in red blue green yellow
 do
     echo Current color: $color
 done
 echo Out of loop color: $color
 
-../block.sh "Files in chapter1"
+block.sh "Files in chapter1"
 for f in $(ls ../chapter1/*)
 do
     echo $f
 done
 
-../block.sh "Experiment with IFS"
+block.sh "Experiment with IFS"
 TMP_FILE=test.txt
 # Generate file
 cat > $TMP_FILE << EOF
@@ -33,13 +33,13 @@ done
 IFS=$IFS_BAK
 rm $TMP_FILE
 
-../block.sh "C-style"
+block.sh "C-style"
 for (( a = 1; a < 10; a++ ))
 do
     echo Current number $a
 done
 
-../block.sh "Searching pattern in file via loop"
+block.sh "Searching pattern in file via loop"
 TMP_FILE=test.txt
 PATTERN=pattern
 # Generate file

@@ -21,7 +21,7 @@ echo Last arg: ${!#}
 echo All args: $*
 echo All args: $@
 
-../block.sh "Args shift"
+block.sh "Args shift"
 echo Script name: $0
 echo First arg: $1
 echo Second arg: $2
