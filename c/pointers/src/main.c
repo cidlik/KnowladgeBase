@@ -147,6 +147,19 @@ void test_strcat() {
     printf("dest = %p; p = %p\n", dest, p);
 }
 
+
+void void_pointers() {
+    printf("%s()\n", __func__);
+    void *p;
+    int i = 10;
+    p = &i;
+    printf("&i = %p; p = %p; i = %d; *((int *)p) = %d\n", &i, p, i, *((int *)p));
+    char *s = "some string";
+    p = s;
+    printf("s = %s; (char *)p = %s\n", s, (char *)p);
+}
+
+
 int main() {
     printf("=======================\n");
     simple_demonstration();
@@ -162,5 +175,7 @@ int main() {
     copy_str();
     printf("=======================\n");
     test_strcat();
+    printf("=======================\n");
+    void_pointers();
     return 0;
 }
