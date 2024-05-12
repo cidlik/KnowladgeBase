@@ -1,0 +1,2 @@
+/home/rkuznecov/Sandbox/cmake/prj3/test1
+/home/rkuznecov/Sandbox/cmake/prj3/test2
