@@ -1,6 +1,5 @@
-from array import array
 import random
-
+from array import array
 
 ARRAY_LEN = 10
 
@@ -38,7 +37,7 @@ def main():
     a = array("i", [1, 2, 3, 4, 5, 6])
     run_(binarySearch, a, 1)
     run_(binarySearch, a, 10)
-    a = array("i", [ 0, 2, 4, 6, 8, 10, 12, 14, 16])
+    a = array("i", [0, 2, 4, 6, 8, 10, 12, 14, 16])
     run_(binarySearch, a, 9)
     run_(binarySearch, a, 16)
 

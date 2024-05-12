@@ -10,7 +10,7 @@
 	Ex:
 	```
 	a = [1,2,3]
-	b = [*a,4,5,6] 
+	b = [*a,4,5,6]
 	print(b) # [1,2,3,4,5,6]
 	```
 - Использование слов `args` или `kwargs` необязательно, ключевые элементы - звездочки
@@ -20,7 +20,7 @@
 	def task1(*args, **kwargs):
 	    print(args)
 	    print(kwargs)
-	
+
 	task1(1, 2, 3, key="value")
 
 	stdout:

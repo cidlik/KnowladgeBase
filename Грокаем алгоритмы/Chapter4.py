@@ -64,6 +64,8 @@ def binary_search_recursive(l: list, t: int, left: int, right: int) -> int:
 
 
 count = 0
+
+
 def quicksort(l: list):
     global count
     if len(l) < 2:
@@ -91,13 +93,12 @@ def main():
         a,
         t=3,
         left=0,
-        right=len(a)-1,
+        right=len(a) - 1,
     )
     print(f"binary_search_recursive: {tmp}")
     # l.l = sorted([9, 8, 7, 6, 5, 4, 3, 2, 1, 0])
     print(l.l)
     print(f"{quicksort(l.l)}; op_count = {count}")
-
 
 
 if __name__ == "__main__":

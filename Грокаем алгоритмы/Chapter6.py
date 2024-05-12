@@ -67,6 +67,5 @@ def main():
     second_var(graph)
 
 
-
 if __name__ == "__main__":
     main()

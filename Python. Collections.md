@@ -1,4 +1,4 @@
-#python #collections 
+#python #collections
 
 ### Ресурсы
 1. https://python-scripts.com/queues

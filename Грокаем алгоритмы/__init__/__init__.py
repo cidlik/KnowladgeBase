@@ -1,7 +1,7 @@
 import random
-
 from collections import deque
-from treelib import Tree, Node
+
+from treelib import Node, Tree
 
 
 # https://readthedocs.org/projects/treelib/downloads/pdf/stable/

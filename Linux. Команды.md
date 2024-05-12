@@ -37,6 +37,6 @@
 
   ```
   user@userMint:~/wd/lesson2$ strings ../lesson1/build/testdriver.ko | grep -i vermagic
-  vermagic=4.15.0-20-generic SMP mod_unload 
+  vermagic=4.15.0-20-generic SMP mod_unload
   __UNIQUE_ID_vermagic14
   ```

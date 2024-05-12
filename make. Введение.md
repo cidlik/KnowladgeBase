@@ -88,7 +88,7 @@ all:
 
 ```
 foo = bar
-bar := $(foo) foo  # 
+bar := $(foo) foo  #
 foo := boo
 
 all:
@@ -149,6 +149,6 @@ FILES := $(wildcard src/*.c)
   ```
   [rkuznecov@dojo-pc make]$ ls src/
   custom-lib.c  main.c
-  [rkuznecov@dojo-pc make]$ make -f Makefile.test5 
+  [rkuznecov@dojo-pc make]$ make -f Makefile.test5
   src/custom-lib.o src/main.o
   ```

@@ -10,14 +10,14 @@
 - Т.к. множества неупорядоченны, то нельзя обратитья к элементу множества напрямую, НО! можно составить список из множества.
 	*Ex*
 	```
-	>>> a = set("abcaba") 
+	>>> a = set("abcaba")
 	>>> type(a)
 	<class 'set'>
 	>>> a[1]
 	Traceback (most recent call last):
 	File "<stdin>", line 1, in <module>
 	TypeError: 'set' object is not subscriptable
-	>>> print(a) 
+	>>> print(a)
 	{'c', 'a', 'b'}
 	>>> list(a)
 	['c', 'a', 'b']

@@ -7,8 +7,8 @@
 
 ### Заметки
 
-| Syntax | Description |  
-| ----------- | ----------- |  
+| Syntax | Description |
+| ----------- | ----------- |
 | Heading | # H1 <br/> ## H2 <br/> ### H3 |
 | Bold | ** bold text ** |
 |Italic|*italic text*|

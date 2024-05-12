@@ -1,4 +1,4 @@
-#debug #gdb 
+#debug #gdb
 
 ### Ресурсы
 

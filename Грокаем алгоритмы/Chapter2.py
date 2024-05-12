@@ -1,13 +1,12 @@
 import random
 from array import array
 
-
 ARRAY_LEN = 10
 
 
 def selection_sort(a: list or array, inc_order: bool = True) -> list or array:
     if isinstance(a, list):
-        ret = list()
+        ret = []
     elif isinstance(a, array):
         ret = array("i", [])
     else:

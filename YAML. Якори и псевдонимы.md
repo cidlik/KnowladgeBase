@@ -11,18 +11,18 @@
 ---
 _Пример_:
 ```
-- &flag Apple 
-- Beachball 
-- Cartoon 
-- Duckface 
+- &flag Apple
+- Beachball
+- Cartoon
+- Duckface
 - *flag
 ```
 _Результат_:
 ```
-- Apple 
-- Beachball 
-- Cartoon 
-- Duckface 
+- Apple
+- Beachball
+- Cartoon
+- Duckface
 - Apple
 ```
 ---

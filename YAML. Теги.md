@@ -1,4 +1,4 @@
-#yaml #anchors #alias 
+#yaml #anchors #alias
 
 ### Ресурсы
 1. Статья: https://levelup.gitconnected.com/6-yaml-features-most-programmers-dont-know-164762343af3
@@ -10,7 +10,7 @@
 _Пример_
 ```
   vars:
-    var1: !!float 42  
+    var1: !!float 42
     var2: !!str 42
 
   tasks:
