@@ -54,12 +54,13 @@ def check_algo_v2():
 
 
 def main():
-    with open("dark-stock.csv") as f:
+    # with open("dark-stock.csv") as f:
+    with open("../parse-image/out.csv") as f:
         raw_data = f.read()
     data = []
     for line in raw_data.splitlines()[1:]:
         num, gain = line.split(",")
-        data.append((int(num), round(float(gain), 3)))
+        data.append((num, round(float(gain), 3)))
     gains = [line[1] for line in data]
     new_gains = []
     WINDOW = 100
