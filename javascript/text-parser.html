@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>
+            Text parser
+        </h1>
+
+        <div id="demo"></div>
+        <script>
+            function parseListOutput(text) {
+                let json = JSON.parse(text)
+                let data = [];
+    
+                for (const [index, element] of json["text"].entries()) {
+                    if (index == 0) {
+                        continue;
+                    }
+                    let splitedElement = element.replace(/\s+/g," ").trim(" ").split(" ");
+                    <!-- console.log(splitedElement); -->
+    
+                    map = new Map();
+                    map.set("serial", splitedElement[0]);
+                    map.set("labels", splitedElement[1].split(","));
+                    map.set("type", splitedElement[2]);
+                    map.set("BMC port", splitedElement[3]);
+                    if (Object.keys(splitedElement).length > 4) {
+                        map.set("UART ports", splitedElement[4].split(","));
+                    }
+                    data.push(map);
+                }
+                return data;
+            }
+
+            let text = `{
+                "text": [
+                    "USB serial      Labels      Type        BMC terminal  UART ports                                           ",
+                    "0x356f34533438  ASSET-825   MCom03BuB   /dev/ttyACM0                                                       ",
+                    "0x326036643536  ASSET-1120  SolarisBuB  /dev/ttyACM1  /dev/ttyUSB0,/dev/ttyUSB1,/dev/ttyUSB2,/dev/ttyUSB3  "
+                    ],
+                    "status": 200
+                    }`
+            data = parseListOutput(text)
+            let html = "";
+            for (const d of data) {
+                console.log(d);
+                html += "<div>" + d.get("serial") + "</div>";
+            }
+            console.log(html)
+            document.getElementById('demo').innerHTML = html;
+        </script>
+    </body>
+</html>

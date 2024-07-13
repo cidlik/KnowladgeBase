@@ -7,7 +7,7 @@
 3. Cheat sheet: https://devhints.io/makefile
 4. Manual: https://www.gnu.org/software/make/manual/html_node/
 
-Примеры располагаются в `examples/make`. Проект возможно собрать при помощи
+Примеры располагаются в `make`. Проект возможно собрать при помощи
 команды `gcc -Iinclude/ src/custom-lib.c src/main.c -o test`.
 
 

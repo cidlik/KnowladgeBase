@@ -1,0 +1,9 @@
+2024-07-02 13:07:20.963 DEBUG    Using selector: EpollSelector
+2024-07-02 13:07:20.963 DEBUG    Using selector: EpollSelector
+2024-07-02 13:07:20.963 DEBUG    Try to start server
+2024-07-02 13:07:20.966 DEBUG    Server started at 'localhost:8080'
+2024-07-02 13:07:20.966 DEBUG    Try to get weather
+2024-07-02 13:07:21.016 INFO     ::1 [02/Jul/2024:13:07:20 +0300] "GET /weather?city=Moscow HTTP/1.1" 200 190 "-" "Python/3.9 aiohttp/3.9.5"
+2024-07-02 13:07:21.017 DEBUG    {"city": "Moscow", "weather": "Clouds"}
+2024-07-02 13:07:21.017 DEBUG    Try to stop server
+2024-07-02 13:07:21.018 DEBUG    Using selector: EpollSelector

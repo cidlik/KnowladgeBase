@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Get weather</h1>
+
+<!-- curl 'http://api.openweathermap.org/data/2.5/weather?q=Sochi&APPID=2a4ff86f9aaa70041ec8e82db64abf56' -->
+
+<script>
+    async function getWeather() {
+        let url = "http://api.openweathermap.org/data/2.5/weather?q=Sochi&APPID=2a4ff86f9aaa70041ec8e82db64abf56"
+        let response = await fetch(url);
+        if (response.ok) {
+            let json = await response.json();
+            let weather = json["weather"][0]["main"];
+            document.getElementById('demo').innerHTML = "Current weather in Sochi is " + weather;
+        } else {
+            document.getElementById('demo').innerHTML = "Fail to get the weather. Status" + response.status
+        }
+    }
+</script>
+
+<button type="button" onclick="getWeather()">
+    Click me to display to get weather in Sochi
+</button>
+
+<p id="demo"></p>
+
+</body>
+</html> 
