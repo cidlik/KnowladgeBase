@@ -39,7 +39,9 @@
 
 ### Вставить картинку
 
+```markdown
 <figure style="text-align: center">
 	<img src="img\gamma_colour_encoding_5bit.png" alt="gamma_5bit">
 	<figcaption style="text-align: center">Это описание изображения</figcaption>
 </figure>
+```
